@@ -1,0 +1,49 @@
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.addTaskArea{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addTask{
+    width: 250px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textArea{
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: rgb(168, 168, 168);
+    box-shadow: 0 0 5px 1px rgb(224, 224, 224);
+}
+.textArea::-webkit-scrollbar {
+    display: none;
+}
+.buttonToAdd{
+    margin-top: 20px;
+    background: #00FF8E;
+    outline: none;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    border: none;
+    border-radius: 50px;
+    background-image: url(../../img/button.png);
+}
+.buttonToAdd:hover{
+    box-shadow: 0 0 5px 1px rgb(224, 224, 224);
+}
